@@ -127,4 +127,5 @@ ion-icon{
     background-color: #34073D;
     color: #FFF;
     text-decoration: line-through;
+    transition: .4s;
 }
