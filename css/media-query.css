@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* telas médias, ex: tablet */
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    #tasks-container{
+        width: 500px;
+    }
+
+    #tasks-header h2{
+        font-size: 1.7em;
+    }
+
+    #add-task-form input{
+        font-size: 1.3em;
+    }
+
+    #tasks-list-container h2{
+        font-size: 1.7em;
+    }
+
+    #add-btn{
+        height: 56px;
+    }
+
+    #tasks-list li span{
+        font-size: 1.3em;
+    }
+
+}
+
+/* telas grandes, ex: PC, TV */
+@media screen and (min-width: 992px){
+
+    #tasks-container{
+        width: 650px;
+    }
+
+    #tasks-header h2{
+        font-size: 1.9em;
+    }
+
+    #add-task-form input{
+        font-size: 1.4em;
+    }
+
+    #tasks-list-container h2{
+        font-size: 1.9em;
+    }
+
+    #add-btn{
+        height: 58px;
+    }
+
+    #tasks-list li span{
+        font-size: 1.4em;
+    }
+}
